@@ -11,7 +11,7 @@ class detail_user extends Model
     use HasFactory,HasUuids;
 
     protected $fillable =[
-        'user_id',
+        
         'alamat'
     ];
 

@@ -11,12 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('detail_users', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('user_id')->constrained(); // Ubah nama kolom foreign key menjadi user_id
-            $table->string('alamat');
-            $table->timestamps();
-        });
+        //
     }
 
     /**
@@ -24,6 +19,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('detail_users');
+        //
     }
 };
