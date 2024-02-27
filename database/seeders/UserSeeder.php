@@ -20,24 +20,32 @@ class UserSeeder extends Seeder
                 'email' => 'sule@gmail.com',
                 'password' => bcrypt('12345'),
                 'role' => 'admin',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name' => 'Operator_Sule',
                 'email' => 'operator@gmail.com',
                 'password' => bcrypt('12345'),
                 'role' => 'operator',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name' => 'Karyawan_Sule',
                 'email' => 'karyawan@gmail.com',
                 'password' => bcrypt('12345'),
                 'role' => 'karyawan',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name' => 'Pembeli_Sule',
                 'email' => 'pembeli@gmail.com',
                 'password' => bcrypt('12345'),
                 'role' => 'pembeli',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
         ];
 
